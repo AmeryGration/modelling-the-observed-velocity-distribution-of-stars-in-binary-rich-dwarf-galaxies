@@ -12,15 +12,15 @@ Requirements file.
 
 ## Usage
 
-To run the analysis first modify the configuration file, ~config.yaml~, in order to specify the population type, ~population~ (one of ~duquennoy1991~, ~moe2017_canonical~, or ~moe2017_bottom_light~), and population size, ~n_binary~ (an integer).
+To run the analysis first modify the configuration file, `config.yaml`, in order to specify the population type, `population` (one of `duquennoy1991`, `moe2017_canonical`, or `moe2017_bottom_light`), and population size, `n_binary` (an integer).
 
 Then run the following scripts in order:
-- ~0_create_binary_population.py~, which synthesizes a population of binary stars,
-- ~1_plot_binary_population_properties.py~, which plots histograms of the physical properties of these binary stars,
-- ~2_compute_binary_population_kinematics.py~, which computes the kinematic properties of each component of each binary star along with the additional LOS velocity dispersion as a function of binary fraction and spatial resolution, and
-- ~3_plot_binary_population_kinematics.py~, which plots histograms of the binary star population's kinematic properties and the additional LOS velocity dispersion. 
+- `0_create_binary_population.py`, which synthesizes a population of binary stars,
+- `1_plot_binary_population_properties.py`, which plots histograms of the physical properties of these binary stars,
+- `2_compute_binary_population_kinematics.py`, which computes the kinematic properties of each component of each binary star along with the additional LOS velocity dispersion as a function of binary fraction and spatial resolution, and
+- `3_plot_binary_population_kinematics.py`, which plots histograms of the binary star population's kinematic properties and the additional LOS velocity dispersion. 
 
-The script ~0_create_binary_population.py~ executes one of the scripts ~duquennoy1991.py~, ~moe2017_canonical.py~, or ~moe2017_bottom_light.py~ according to the value of the key ~population~ in ~config.yaml~. All data are saved to ~population/data/~. All plots are saved to ~population/figures/~.
+The script `0_create_binary_population.py` executes one of the scripts `duquennoy1991.py`, `moe2017_canonical.py`, or `moe2017_bottom_light.py` according to the value of the key `population` in `config.yaml`. All data are saved to `population/data/`. All plots are saved to `population/figures/`.
 
 ## References
 <a id="1">[1]</a> 
