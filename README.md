@@ -1,6 +1,6 @@
 # Modelling the observed velocity distribution of stars in binary-rich dwarf galaxies
 
-This repository contains the code used in the analysis of binary-rich galaxies performed by Gration et al. [[1]](#1). That analysis quantified the difference in the line-of-sight (LOS) velocity dispersions for binary-free and binary-rich galaxies (called the `additional mean-square LOS velocity') under the assumption that the binary-star population consisted of either
+This repository contains the code used in the analysis of binary-rich galaxies performed by Gration et al. [[1]](#1). That analysis quantified the difference in the line-of-sight (LOS) velocity dispersions for binary-free and binary-rich galaxies (called the `additional mean-square LOS velocity') under the assumption that the binary-star population consists of either
 - zero-age main-sequence stars with primary-star masses distributed according to the canonical initial mass function,
 - zero-age main-sequence stars with primary-star masses distributed according to a bottom-light initial mass function, or
 - present-day solar-type stars.
