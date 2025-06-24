@@ -6,7 +6,7 @@ This repository contains the code used in the analysis of binary-rich galaxies p
 - zero-age main-sequence stars with primary-star masses distributed according to a bottom-light initial mass function, or
 - present-day solar-type stars.
 
-This analysis was done by realizing a sample of a binary-star population using Monte Carlo methods.
+This analysis was done by realizing a sample of the binary-star population using Monte Carlo methods.
 
 ## Installation
 
